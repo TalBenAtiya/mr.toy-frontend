@@ -1,0 +1,65 @@
+:root {
+    --clr-white: #f5f5f5;
+    --clr-black: #333333;
+    --clr-1: #afe100;
+    --clr-2: #0bc2de;
+    --clr-3: #f21890;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: dosis-regular;
+    color: var(--clr-black);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+select,
+input {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--clr-black);
+}
+
+.main-layout {
+    margin: auto;
+    width: 90%;
+    max-width: 1400px;
+}
+
+.flex {
+    display: flex;
+}
+
+main {
+    overflow: hidden;
+}
+
+.main-container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}

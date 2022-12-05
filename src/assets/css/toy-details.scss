@@ -1,0 +1,153 @@
+.toy-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+
+    .chat-btn {
+        background-color: transparent;
+        position: fixed;
+        bottom: 0px;
+        right: 50px;
+
+        img {
+            width: 45px;
+        }
+    }
+
+.chat {
+    position: fixed;
+    top: 200px;
+
+    .chat-modal {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border: 1px solid var(--clr-black);
+        
+        .chat-data {
+            background-color: var(--clr-white);
+            color: var(--clr-black);
+            width: 100%;
+            height: 400px;
+            position: relative;
+            
+            button {
+                float: right;
+                background-color: var(--clr-white);
+            }
+        }
+        
+        form {
+            display: flex;
+            width: 100%;
+            background-color: var(--clr-white);
+            
+            input {
+                flex: 1;
+                border: none;
+                background-color: var(--clr-2);
+                padding: 5px;
+                color: var(--clr-white);
+            }
+            
+            button {
+                background-color: var(--clr-3);
+                flex: 0.1
+            }
+        }
+    }
+}   
+    
+}
+
+.toy-details img {
+    margin: 20px;
+    width: 100%;
+    max-width: 350px;
+}
+
+.toy-details h3 {
+    font-size: 25px;
+    font-family: dosis-medium;
+}
+
+.price {
+    color: #118C4F;
+}
+
+.available {
+    color: var(--clr-1);
+}
+
+.unavailable {
+    color: crimson;
+}
+
+.toy-properties {
+    display: flex;
+    width: 100%;
+    max-width: 350px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toy-review-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 100%;
+
+    h3 {
+        text-align: center;
+        margin: 10px;
+        color: var(--clr-3);
+    }
+
+
+    .add-review-container {
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        width: 50%;
+        align-items: center;
+        gap: 10px;
+
+
+        input {
+            border: 1px solid var(--clr-black);
+            border-radius: 0.5em;
+            padding: 5px;
+            width: 250px;
+            margin: 5px;
+        }
+
+        button {
+            color: var(--clr-white);
+            padding: 5px;
+            border-radius: 0.8em;
+            background-color: var(--clr-3);
+            font-size: 15px;
+            font-family: dosis-light;
+        }
+    }
+
+}
+
+.reviews-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-self: flex-start;
+}
+
+.reviews-container section {
+    width: 200px;
+}
+
+.reviews-container section p {
+    word-wrap: break-word;
+}

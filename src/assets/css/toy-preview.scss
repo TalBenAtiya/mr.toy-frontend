@@ -1,0 +1,115 @@
+
+.toy-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
+    gap: 10px;
+    justify-content: center;
+}
+
+.toy-preview {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: fit-content;
+    padding: 5px 0px;
+    border-radius: 0.8em;
+    box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.058);
+    min-width: 300px;
+}
+
+.toy-preview h3 {
+    align-self: center;
+}
+
+.toy-preview img {
+    margin: 10px 0px;
+    width: 100%;
+    height: 100px;
+    object-fit: contain;
+}
+
+.toy-lables span {
+    font-family: dosis-light;
+    margin-inline-end: 5px;
+    font-size: 13px;
+    background-color: var(--clr-white);
+    padding: 2px 5px;
+    border-radius: 0.5em;
+    color: var(--clr-black);
+}
+
+.toy-lables {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.toy-preview:hover {
+    background-color: rgba(0, 0, 0, 0.073);
+    box-shadow: 2px 2px 18px 2px rgba(0, 0, 0, 0.09);
+}
+
+.preview-btns {
+    padding: 5px 0;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.add-to-cart-btn {
+    color: var(--clr-white);
+    padding: 5px;
+    border-radius: 0.8em;
+    background-color: var(--clr-3);
+    font-size: 15px;
+    font-family: dosis-light;
+}
+
+.details-btn {
+    color: var(--clr-white);
+    padding: 2px 10px;
+    border-radius: 0.7em;
+    background-color: var(--clr-1);
+    font-size: 15px;
+    font-family: dosis-light;
+}
+
+.details-btn:hover,
+.add-to-cart-btn:hover {
+    background-color: var(--clr-2);
+}
+
+.preview-btns h4 {
+    position: relative;
+    left: -5px
+}
+
+.edit-btn {
+    position: absolute;
+    left: -8px;
+    top: -8px;
+    background-color: transparent;
+    font-size: 25px;
+    color: var(--clr-1);
+}
+
+.edit-btn:hover {
+    color: var(--clr-2);
+}
+
+.remove-btn {
+    background-color: transparent;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 20px;
+    color: var(--clr-black);
+}
+
+.remove-btn:hover {
+    color: var(--clr-2);
+}

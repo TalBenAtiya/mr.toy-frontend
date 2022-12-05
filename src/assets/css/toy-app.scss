@@ -1,0 +1,21 @@
+.side-links {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.side-links button {
+    color: var(--clr-white);
+    padding: 5px 15px;
+    border-radius: 0.7em;
+    background-color: var(--clr-2);
+    font-size: 18px;
+    font-family: dosis-regular;
+    transition: 0.1s ease-in-out;
+}
+
+.side-links button:hover {
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.33);
+    transform: scale(1.05);
+    background-color: var(--clr-3);
+}

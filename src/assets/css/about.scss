@@ -1,0 +1,47 @@
+.map {
+    width: 70%;
+    align-self: center;
+}
+
+.map-btns {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.map-btns button {
+    width: 100px;
+    color: var(--clr-white);
+    padding: 8px 0px;
+    border-radius: 0.8em;
+    background-color: var(--clr-3);
+    font-size: 15px;
+    font-family: dosis-light;
+    margin-bottom: 5px;
+}
+
+.map-btns button:hover {
+    background-color: var(--clr-2);
+}
+
+.map-btns div {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    max-width: 150px;
+    margin-inline-start: 10px;
+}
+
+.map-btns div p{
+    margin: 0;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}

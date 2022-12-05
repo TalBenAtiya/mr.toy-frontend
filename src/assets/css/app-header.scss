@@ -1,0 +1,86 @@
+.app-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    background-color: #ffffff55;
+    border-bottom: 5px solid var(--clr-2);
+    height: 120px;
+    margin-bottom: 30px;
+
+    .header-sign-up {
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+
+        p {
+            color: var(--clr-black);
+            border-bottom: 1px solid var(--clr-3);
+            padding-bottom: 3px;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+.main-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo h1 {
+    color: var(--clr-3);
+    font-family: pacifico;
+    font-size: 35px;
+
+}
+
+.main-header nav {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 8px;
+
+    .header-user-log-btn {
+        margin-left: 10px;
+        color: var(--clr-white);
+        padding: 5px;
+        border-radius: 0.8em;
+        background-color: var(--clr-2);
+        font-size: 15px;
+        font-family: dosis-light;
+    }
+}
+
+nav a {
+    font-size: 20px;
+    font-family: dosis-medium;
+    border-inline-end: 1px solid var(--clr-2);
+    padding-inline-end: 8px;
+}
+
+nav a.active {
+    color: var(--clr-3);
+}
+
+
+nav a:hover {
+    color: var(--clr-3);
+}
+
+nav a:first-child,
+nav a:nth-child(2) {
+    border: none;
+    padding: 0;
+}

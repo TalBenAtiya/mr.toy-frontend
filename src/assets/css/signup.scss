@@ -1,0 +1,38 @@
+.signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        text-align: center;
+
+        button {
+            margin-top: 10px;
+            color: var(--clr-white);
+            padding: 5px;
+            border-radius: 0.8em;
+            background-color: var(--clr-2);
+            font-size: 15px;
+            font-family: dosis-light;
+        }
+
+        input {
+            border: 1px solid var(--clr-black);
+            border-radius: 0.5em;
+            padding: 5px;
+        }
+
+    }
+
+    .signup-info {
+        font-family: dosis-light;
+        text-align: center;
+
+        span {
+            font-family: pacifico;
+        }
+    }
+}
